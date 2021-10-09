@@ -13,8 +13,10 @@ public class CarDealership {
 
         Scanner scan = new Scanner(System.in);
         System.out.println("How old are you?");
+
         int priceOfCar = 20000;
         int age = scan.nextInt();
+
         if(age >= 18){
             System.out.println("You are ELIGIBLE for a car");
             System.out.println("How much do you have cash$$$$?");
@@ -27,6 +29,9 @@ public class CarDealership {
         }else{
             System.out.println("You are NOT ELIGIBLE for a car");
         }
+
+
+
 
 //        System.out.println(eligibility);
 
