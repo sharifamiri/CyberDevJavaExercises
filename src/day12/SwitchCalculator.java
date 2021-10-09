@@ -16,7 +16,8 @@ public class SwitchCalculator {
 		
 		System.out.println("Enter operator --> +, -, *, / :");
 		String operator = s.next();
-		
+
+
 		//switch (operator.toLowerCase()) {
 		switch (operator) {
 		case "+":

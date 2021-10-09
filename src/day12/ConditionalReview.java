@@ -22,13 +22,15 @@ public class ConditionalReview {
 				}else {
 					action = "STAY HOME";
 				}
+
+		System.out.println(action);
 				
 			//---------------------------------------------------------
 				//ALWAYS USE str1.equals(str2) for String equality check
 				//action = (weather.equals("sunny")) ? "GO OUT" : "STAY HOME";
 				action = (weather.equals("sunny") || weather.equalsIgnoreCase("nice")) 
 						? "GO OUT" : "STAY HOME";
-				
+
 				System.out.println("The ACTION according to weather is:" + action);
 				
 				

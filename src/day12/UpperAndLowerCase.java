@@ -6,12 +6,8 @@ public class UpperAndLowerCase {
 		// TODO Auto-generated method stub
 
 		String weather = "sunny";
-
-		
 	    System.out.println(  weather.toUpperCase()  );
 	    System.out.println(  weather.toLowerCase()  );
-	    
-	    
 	}
 
 }
