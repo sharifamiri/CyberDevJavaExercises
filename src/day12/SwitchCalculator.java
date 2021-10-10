@@ -9,14 +9,12 @@ public class SwitchCalculator {
 
 		Scanner s = new Scanner(System.in);
 		
-		System.out.println("Enter 2 numbers please: ");
+		System.out.println("Enter first number please: ");
 		int num1 = s.nextInt();
-		int num2 = s.nextInt();
-	
-		
 		System.out.println("Enter operator --> +, -, *, / :");
 		String operator = s.next();
-
+		System.out.println("Enter second number please: ");
+		int num2 = s.nextInt();
 
 		//switch (operator.toLowerCase()) {
 		switch (operator) {
@@ -35,7 +33,22 @@ public class SwitchCalculator {
 		default:
 			System.out.println("INVALID OPERATOR");
 		}
-		
+
+		int age = 45;
+		if(age>45){
+			System.out.println("");
+		}
+		String invesCase = "";
+		if(invesCase.equals("criminal")){
+			System.out.println();
+		}
+
+		try {
+			invesCase = "";
+		}catch (Exception e){
+
+		}
+
 		
 //		System.out.println("Enter 2 numbers please: ");
 //		double num11 = s.nextInt();
