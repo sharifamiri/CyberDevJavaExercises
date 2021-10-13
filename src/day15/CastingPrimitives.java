@@ -13,11 +13,17 @@ public class CastingPrimitives {
 		//byte -->int upcasting / type widening
 		
 		//this happens implicitly by compiler -- by compiler
+		double flt = 22.2;
+		int num = (int)flt;
+		System.out.println(num);
 		byte b = 12;
 		int i = b;
 		int y = (int)b;  //explicitly -- by programmer
 						//you don't have to do mention int bec you are puting a small one inside a big one
-		
+		//byte, short = int
+		byte bt = 2;
+		int num2 = bt;
+		double dbl = num2;
 		
 		//int -->byte downcasting / type narrowing
 		

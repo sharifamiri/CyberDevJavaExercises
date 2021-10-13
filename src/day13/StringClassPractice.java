@@ -1,5 +1,7 @@
 package day13;
 
+import java.util.Scanner;
+
 public class StringClassPractice {
 
 	public static void main(String[] args) {
@@ -20,6 +22,14 @@ public class StringClassPractice {
 		* EVERY CHARACTER COUNTS including space or any other special charcaters
 		* 
 		 */
+
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Please enter your word:");
+		String name = scanner.next();
+		int length = name.length();
+		System.out.println(length);
+		System.out.println(name.charAt(0));
+		System.out.println(name.charAt(length-1));
 		
 		
 		String s1 = "abc";

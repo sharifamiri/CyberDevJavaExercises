@@ -13,9 +13,16 @@ public class Reverse {
 		
 		
 		//System.out.println(""+word.charAt(4)+word.charAt(3));
-		
-		
-		
+
+		String name = "idris"; //sirdi
+		int length = name.length();
+		System.out.println(""+name.charAt(length-1)+name.charAt(length-2)+name.charAt(length-3)+name.charAt(length-4)+name.charAt(length-5));
+
+		StringBuilder sb = new StringBuilder(name);
+		StringBuilder sb2 = new StringBuilder("idris");
+		sb.reverse();
+
+		System.out.println(sb);
 		
 	}
 

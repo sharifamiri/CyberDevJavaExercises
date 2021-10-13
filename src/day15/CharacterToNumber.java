@@ -38,9 +38,16 @@ public class CharacterToNumber {
 		int zeroAsciiNumber = character0;
 		System.out.println(zeroAsciiNumber);
 		
-		char characterA = 'A';
+		char characterA = 'Z';
 		System.out.println((int)characterA);
 		//System.out.println(characterA);
+
+		char ch = '1';
+		if(ch >= 'A' && ch<='Z'){
+			System.out.println("it is A-Z");
+		}else {
+			System.out.println("Not an alphabet letter");
+		}
 		
 		
 		

@@ -5,12 +5,44 @@ public class WarmUp {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		int x=10, y=20;
+
+		int num1 = 3;
+		int num2 = 5;
+		int temp1 = num1;
+		num1 = num2;
+		num2 = temp1;
+		System.out.println(num1 + " : " + num2);
+
+		//x = 3;
+		//y = 5;
+		int x = 3;
+		int y = 5;
+		x = x + y;
+		y = x - y;
+		x = x - y;
+		System.out.println(x + " : " + y);
+		System.out.println("------------------------");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		int x1=10, y1=20;
 		int temp;
 		
-		temp =x; //10
-		x=y;   //20
-		y=temp; //10
+		temp =x1; //10
+		x1=y1;   //20
+		y1=temp; //10
 		
 		//Task 2
 		

@@ -10,6 +10,8 @@ public class SearchForJavaVerifySearchResult {
 		//it starts with word About, and it contains word result
 		
 		String str = "about 813,000,000 results (0.56 seconds)";
+
+		System.out.println(str.contains("About"));
 		
 		//how to get certain part of String?
 		

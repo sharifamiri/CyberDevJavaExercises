@@ -26,7 +26,12 @@ public class TrenaryElaboration {
 		num2++; //8++
 		num1--; //5--
 		                  //  4++ > (9-1)=8 ? x   : 5
-		System.out.println((num1++> --num2 ? num2 : num1) + 10);
+		System.out.println((num1++ > --num2 ? num2 : num1) + 10);
+		System.out.println(num2 >4 || num1++ <1);
+		System.out.println(num1);
+
+		int i = (num1 > num2) ? 3 : 4;
+		System.out.println(i);
 			 
 	}
 

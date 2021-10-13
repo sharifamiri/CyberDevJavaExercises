@@ -32,6 +32,9 @@ public class Tasks {
 		System.out.println((name1.length()>name2.length())? name1.charAt(1): name2.charAt(2));
 		
 		char c1 = name2.charAt(name2.length()-1);
+//		int length = name2.length();
+		String ch = name2.substring(0,1);
+		System.out.println();
 		
 		switch(c1) {
 		case 'a':

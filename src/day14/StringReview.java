@@ -58,7 +58,7 @@ public class StringReview {
 		System.out.println(name.indexOf("Mamatjan"));
 		System.out.println(name.indexOf("mamatjan"));
 		
-		String uName = name.toUpperCase();
+		String uName = "OK MAMATJAN";
 		System.out.println(uName.indexOf("MAMATJAN"));
 		System.out.println(name.toUpperCase().indexOf("MA"));
 		

@@ -17,6 +17,7 @@ public class Task {
 		System.out.println(midPoint);
 		System.out.println(name.substring(midPoint, count));
 		System.out.println(name.substring(3, 6));
+		System.out.println(5%2!=0);
 		
 		
 	}

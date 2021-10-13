@@ -27,6 +27,8 @@ public class AmazonSearchTest {
 		}else {
 			System.out.println("Test failed for ipad");
 		}
+
+//		assertEqual(expectedResult,actualResult);
 	
 		
 		
