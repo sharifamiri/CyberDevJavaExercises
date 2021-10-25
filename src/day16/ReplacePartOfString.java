@@ -7,7 +7,7 @@ public class ReplacePartOfString {
 
 		String str = "Date is 03_25_2019";
 		
-		str = str.replace("_", "-"); //we have to declare str first, then replace
+		str = str.replace("_", "/"); //we have to declare str first, then replace
 		
 		System.out.println(str);
 		
@@ -20,7 +20,10 @@ public class ReplacePartOfString {
 		System.out.println(str.replace("Date will be ", "")); 
 		
 		String str2 = "AAAABBBBBCCC";
+		System.out.println(str2.replace("A","Z"));
+//		str2.replace("B","Q");
 		System.out.println(str2.replace('A', 'Z')); //It will change all As
+
 
 	}
 

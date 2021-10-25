@@ -13,10 +13,10 @@ public class AnotherIndexOf {
 		System.out.println(str.indexOf("A", 11)); //11
 		System.out.println(str.indexOf("A", 12)); //14
 		
-		int space1 = str.indexOf(" ");
+		int space1 = str.indexOf(" "); //5
 		System.out.println(space1);
-		int space2 = str.indexOf(" ", space1+1);
-		int space3 = str.indexOf(" ", space2+1);
+		int space2 = str.indexOf(" ", space1+1); //10
+		int space3 = str.indexOf(" ", space2+1); //13
 		
 		String word2 = str.substring(space1+1, space2);
 		System.out.println(word2);

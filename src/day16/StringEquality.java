@@ -18,6 +18,14 @@ public class StringEquality {
 		//What is String pool:
 			//
 
+		String name = "Idris";
+		String name2 = "Idris";
+		System.out.println(name == name2);
+		String name3 = new String("Idris");
+		System.out.println(name == name3);
+		System.out.println(name.equals(name3));
+
+
 		
 	}
 

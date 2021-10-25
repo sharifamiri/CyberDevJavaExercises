@@ -9,6 +9,8 @@ public class EndsWith {
 		
 		boolean yesOrNo = str.endsWith("no");
 		System.out.println(yesOrNo);
+
+
 		
 	}
 

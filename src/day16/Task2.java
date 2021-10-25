@@ -32,8 +32,9 @@ public class Task2 {
 		    }else if(count%2==0) {
 			//System.out.println(name.substring(midPoint-1, midPoint+1));
 		    char midR = name.charAt(midPoint-1);
+				System.out.println(midR);
 		    char midL = name.charAt(midPoint);
-		    System.out.println(" "+ midR+midL);
+		    System.out.println(" "+ midR+midL+name.charAt(midPoint+1));
 		    
 		    }
 		}

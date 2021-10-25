@@ -11,6 +11,11 @@ public class ContactMethod {
 		String str2 = str.concat("YES IT IS !!!").concat("OH YEAH"); //you can add multiple
 		
 		System.out.println(str2);
+
+		String name = "Saloh";
+		name = name + "Idris";
+		name = name.concat("Java");
+		System.out.println(name);
 		
 	}
 
