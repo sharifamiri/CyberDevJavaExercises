@@ -35,11 +35,23 @@ public class WhileLoop {
 //			++x;
 //			System.out.println("Happy Birthday! " + x);
 //		}
-		int x =5;
-		while(x>0) {
-		
-			System.out.println("Happy Birthday! " + x);
-			--x;	
+//		int x =5;
+//		while(x>0) {
+//
+//			System.out.println("Happy Birthday! " + x);
+//			--x;
+//		}
+
+
+
+		int month = 12;
+		if (month >= 1){
+			System.out.println("month : "+ month);
+		}
+
+		while (month >=1){
+			System.out.println("month : " + month);
+			month--;
 		}
 	}
 

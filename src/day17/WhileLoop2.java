@@ -10,6 +10,10 @@ public class WhileLoop2 {
 //			
 //			System.out.println("value of x is: " + ++x);
 //		}
+		int num = 0;
+		while (num < 10){
+			System.out.println("x is : " + num++);
+		}
 		
 		System.out.println("jasdajk" + "\nsjkf");
 		int x = 0;
