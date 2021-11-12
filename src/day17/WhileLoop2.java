@@ -29,8 +29,10 @@ public class WhileLoop2 {
 		}
 		
 		int a1=25;
-        while (50>a1) {                  
-        System.out.println("i am even: "+ (a1 + ++ a1));}
+		int i = 0;
+        while (50>a1) {
+        	i++;
+        System.out.println(i +" : i am even: "+ (a1 + ++a1));}
         
         
 	}
