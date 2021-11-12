@@ -31,7 +31,7 @@ public class WarmUp {
 				// point to existing object 
 				//new goes to heap and cat and literal go to pool
 		
-		System.out.println(s1.equals(s2)); //treu --> bec checking content
+		System.out.println(s1.equals(s2)); //true --> bec checking content
 		System.out.println(s1==s2); //false --> bec checking location & they have different location
 		System.out.println(s1==s3); //true --> bec checking location & they have same location
 		

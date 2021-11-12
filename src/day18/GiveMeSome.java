@@ -21,7 +21,6 @@ public class GiveMeSome {
 		while(count<=100) {
 			sum = sum +count;
 			System.out.println("Current sum: " + sum + " count is: " + count);
-			
 			count++;
 		}
 		System.out.println(sum);

@@ -15,7 +15,8 @@ public class LocalVariable {
 			x=5;
 		}
 		System.out.println(x);
-		
+
+
 		
 	}
 

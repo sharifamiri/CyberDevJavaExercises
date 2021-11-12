@@ -32,7 +32,10 @@ public class NullReference {
 		
 		//System.out.println(s1.length()); //--> I don't have any dog
 		System.out.println(s2.length()); //-->I have a dog, but it is empty
-		
+
+		String name = "Saloh";
+		System.out.println(name.length());
+		System.out.println(name.charAt(name.length()-1));
 		
 	}
 

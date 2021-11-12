@@ -18,6 +18,7 @@ public class GiveMeFive {
 		}
 		
 		System.out.println("YAY GOOD JOB");
+
 	}
 
 }
