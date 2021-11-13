@@ -33,6 +33,14 @@ public class WhileLoop {
 			System.out.println("do this " + y--); //it will print iteration
 			//y--;
 		}
+
+		int j = 365;
+		int temp = j/2;
+		while (j > 0){
+			if (j == temp)
+				System.out.println("Half of year : " + temp);
+			j--;
+		}
 	}
 
 }
