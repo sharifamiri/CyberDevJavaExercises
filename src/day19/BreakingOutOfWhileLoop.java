@@ -11,13 +11,34 @@ package day19;
 		    // ask user to enter a word
 		    // keep asking if its not correct 
 		    // but stop asking if user try 3 times 
-		    
+
+
+			  Scanner sc = new Scanner(System.in);
+			  System.out.println("Enter:");
+			  String str = sc.next();
+
+			  int cnt = 0;
+			  while (!str.equals("yes")){
+				  if(cnt == 3){
+					  break;
+				  }
+				  System.out.println("Enter2");
+				  str = sc.next();
+				  cnt++;
+			  }
+
+
+
+
+
 		    Scanner scan = new Scanner(System.in); 
-		    String word = "";
+		    String word = "java";
 		    
-		    int count = 0 ; 
+		    int count = 0 ;
+
+		    boolean bln = word.equalsIgnoreCase("java");
 		    
-		    while(word.equalsIgnoreCase("java") ==false ) {
+		    while(bln == false ) {
 		    
 		      System.out.println("Enter the magic word");
 		      

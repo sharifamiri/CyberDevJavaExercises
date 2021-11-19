@@ -4,10 +4,10 @@ public class DoWhileLoop {
 
 	public static void main(String[] args) {
 		
-//		int x = 1;
-//		while(x<6) {
-//			System.out.println(x++);
-//		}
+		int x = 1;
+		while(x<6) {
+			System.out.println(x++);
+		}
 
 		/*
 		 * do {
@@ -20,11 +20,11 @@ public class DoWhileLoop {
 		 *It does the action then looks at the condition
 		 */
 		
-//		int y = 1;
-//		
-//		do {
-//			System.out.println(y++);
-//		} while (y<5);
+		int y = 1;
+
+		do {
+			System.out.println(y++);
+		} while (y<5);
 		
 
 		

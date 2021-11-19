@@ -25,6 +25,20 @@ public class LoopingChars {
 			
 			System.out.println("Not A-Z");
 		}
+
+
+		//ASCII code
+		//a -20, b-21-----z-47
+		//password requirement is that it has to be alphanumeric and first character should be an alaphabetic letter;
+		String password = "{java";
+		char firstLetter = password.charAt(0);
+		if(firstLetter >= 'a' && firstLetter <= 'z'){
+			System.out.println("True");
+		}else {
+			System.out.println("False");
+		}
+
+		System.out.println("z"+'z');
 		
 	}
 

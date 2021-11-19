@@ -1,5 +1,7 @@
 package day19;
 
+import java.util.Locale;
+
 public class IgnoreCaseVsContains {
 
 	public static void main(String[] args) {
@@ -13,6 +15,9 @@ public class IgnoreCaseVsContains {
 		  System.out.println(  str.contains("while") );
 		  
 		  System.out.println(  str.toLowerCase().contains("while") );
+
+		  String name = "Idris";
+		  System.out.println(name.equalsIgnoreCase("idris"));
 		  
 		    
 		
