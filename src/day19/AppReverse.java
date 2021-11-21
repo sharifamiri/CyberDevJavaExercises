@@ -17,6 +17,7 @@ public class AppReverse {
 
 		System.out.print(""+ch1 + ch2 + ch3 + ch4);
 		System.out.println();
+
 		//Better way. efficient way..preferred way
 		int size = name.length()-1;
 		String reverseWord = "";
