@@ -19,10 +19,15 @@ public class WarmUp {
 //	    }
 	    //2nd Way:
 	    String sentence = "";
-	    while(!sentence.toUpperCase().contains("JAVA")) {
+	    int numOfSt = 4;
+	    while(!sentence.toUpperCase().contains("JAVA") && numOfSt>=0) {
 	    //while(sentence.toUpperCase().contains("JAVA")==false) {
 	    	System.out.println("Please enter a sentence");
 		    sentence = scan.nextLine();
+//		    if (numOfSt == 0){
+//		    	break;
+//			}
+		    numOfSt--;
 	    }
 	    System.out.println("YOUR SENTENCE CONTAINS \"JAVA\"");
 		

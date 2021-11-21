@@ -32,7 +32,6 @@ public class LoopPractice {
 		String name = scan.nextLine();
 		int y = 0;
 		while(y<name.length()) {
-				
 			System.out.print(str.charAt(y) + "-");
 			y++; //++x;-->same
 		}
