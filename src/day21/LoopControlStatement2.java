@@ -6,7 +6,8 @@ public class LoopControlStatement2 {
 		
 
 		for (int i = 0; i <= 10; i++) {
-			if (i==5) {
+			System.out.println("Java");
+			if (i==0) {
 				continue;
 			}
 			break;
@@ -15,14 +16,14 @@ public class LoopControlStatement2 {
 		}
 
 //		for (int i = 0; i <= 10; i++) {
-//			
+//
 //				 //SKIP THIS ITTERATION GO TO NEXT ONE
-//			
+//
 //			System.out.println("GOT MILK? " + i);
 //			continue;
-		
+//
 //			//unreachable code
-//			//System.out.println("END");
+//			System.out.println("END");
 //		}
 	}
 

@@ -14,6 +14,22 @@ public class ForLoopContinue {
 		for (int i = 1; i < 10; i+=2) {
 			System.out.print(i + " ");
 		}
+		System.out.println();
+
+		for (int i = 2; i<=10; i+=2){
+			if(i == 10) System.out.println(i);
+			else System.out.print(i + " ");
+		}
+		System.out.println();
+		for (int a = 0; a <= 10; a+=2) {
+			System.out.print(a + " ");
+		}
+
+
+
+
+
+
 		
 	}
 	
