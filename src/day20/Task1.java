@@ -46,7 +46,7 @@ public class Task1 {
 		}
 
 		System.out.println();
-		System.out.println(word);
+		System.out.println(word.substring(word.length()/2));
 		
 	}
 
