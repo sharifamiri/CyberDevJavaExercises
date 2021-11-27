@@ -15,6 +15,16 @@ public class Task2 {
 		 * 
 		 * 
 		 */
+
+		for(int i = 0; i <= 50; i++){
+//			if(i % 2 == 1) System.out.print(i + " ");
+			if(i % 2 == 0) continue;
+			System.out.print(i + " ");
+		}
+		System.out.println();
+
+
+
 	
 		//Task 2.1
 		for (int i = 1; i < 50; i++) {
@@ -59,7 +69,7 @@ public class Task2 {
 			if(i%3==0 && i%5==0) {
 				continue;
 				}
-				System.out.print(i + " ");
+				System.out.print(i + " | ");
 				sum+=i;
 			
 		}

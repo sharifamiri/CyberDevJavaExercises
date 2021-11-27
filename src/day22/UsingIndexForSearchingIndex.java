@@ -5,6 +5,15 @@ public class UsingIndexForSearchingIndex {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		String word = "Java"; //word.length-1
+		//System.out.println(word.substring(5,7));
+					//"jav","a i","s a", pr
+		for (int i = 0; i < word.length(); i+=2){
+			if(i == word.length()-1) word = word + " ";
+			System.out.print(word.substring(i, i+2) + "|");
+		}
+		System.out.println();
+
 		String str = "ABCDEFGHI";
 		String newStr = "";
 		
@@ -34,7 +43,7 @@ public class UsingIndexForSearchingIndex {
 //	      System.out.print( eachChar + ( (i!= str.length()-1)? "-" : "") ) ;
 
 		}
-		
+		System.out.println();
 		for (int i = 0; i < str.length(); i+=2) {
 			
 			if(i!=str.length()-1) {

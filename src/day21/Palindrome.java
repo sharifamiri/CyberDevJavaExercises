@@ -23,10 +23,10 @@ public class Palindrome {
         //civic
         //aba
         //anna
-        String word = "civic";
+        String word = "ciic";
         String result = "";
-        for(int i = 0; i < word.length(); i++){
-            if(word.charAt(i) == word.charAt(word.length()-1)){
+        for(int i = 0, j = word.length()-1; i < word.length()/2; i++, j--){
+            if(word.charAt(i) == word.charAt(j)){
                 result = "True";
             }else {
                 result = "False";

@@ -6,10 +6,9 @@ public class UsingIndexForSearchingIndex2IMP {
 		// TODO Auto-generated method stub
 
 		String str = "ABCDEBCD";
-		int countOfChars = str.length();
 		int count=0;
 		String target = "BCD";
-		int targetLength = target.length();
+		int targetLength = target.length(); //3
 		
 
 		//2nd WAY:
