@@ -48,7 +48,6 @@ public class DefaultValueForArrayObjectElements {
 	    Scanner[] arr10 = new Scanner[3] ; 
 	    System.out.println(arr10[0]);
 		
-		
 	}
 
 }

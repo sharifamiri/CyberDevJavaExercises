@@ -1,5 +1,8 @@
 package day23;
 
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class ArrayIntro {
 
 	public static void main(String[] abcefg) {
@@ -10,6 +13,22 @@ public class ArrayIntro {
 		int i3 = 30;
 		int i4 = 40;
 		int i5 = 50;
+
+		//you have 3 students
+		//1-60, 2-70, 3-80
+
+		int s1 = 60;
+		int s2 = 70;
+		int s3 = 80;
+
+		System.out.println("S1: " + s1 +" S2: " +  s2 + " S3: " +  s3);
+
+		int[] nums = new int[3];
+//		Scanner scanner = new Scanner(System.in);
+		nums[0] = 60;
+		nums[1] = 70;
+		nums[2] = 80;
+		System.out.println("ARRAY: " + Arrays.toString(nums));
 		
 		//we declared int array variable 
 		//and we assigned and int array object

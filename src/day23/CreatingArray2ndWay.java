@@ -27,8 +27,7 @@ public class CreatingArray2ndWay {
 		numbers[4]=3;
 		
 		System.out.println(numbers[0]);
-		
-		
+
 	}
 
 }
