@@ -14,11 +14,13 @@ public class RandomNumbers {
 		//This is useful to 
 		for (int x= 0; x < 10; x++) {
 			nums[x] = rand.nextInt(100);
-			
 		}
 		System.out.print(Arrays.toString(nums));
-		
-		
+
+		System.out.println();
+		double j = Math.round(Math.random()+6); //[0,1]
+		System.out.println(j);
+
 //		for (int x= 0; x < 10; x++) {
 //			int i = rand.nextInt(100);
 //			System.out.print(i + " ");

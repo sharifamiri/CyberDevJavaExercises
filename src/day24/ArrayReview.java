@@ -11,6 +11,11 @@ public class ArrayReview {
 		 * 
 		 */
 		//1ST WAY
+
+		//key and value
+		//Sino - 1000
+		//Firdavsi - 2000
+		//4,5,6,7
 		int [] nums = new int[3];
 		System.out.println(nums[0]);
 		System.out.println(nums[1]);

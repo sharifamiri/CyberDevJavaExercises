@@ -5,6 +5,9 @@ public class ArrayTask {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		//"idris"
+		//array .. char c = {'i','d','r','i','s'}'
+
 		char [] name = new char[6];
 		name[0] = 'S';
 		name[1] = 'h';
