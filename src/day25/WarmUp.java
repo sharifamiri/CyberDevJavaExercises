@@ -33,7 +33,7 @@ public class WarmUp {
 		
 		int [] evenNumbers = new int [51];
 
-		for (int i = 0; i < nums.length; i++) {
+		for (int i = 0; i <= nums.length; i++) {
 			evenNumbers[i] = i*2;
 		}
 		System.out.println(Arrays.toString(evenNumbers));

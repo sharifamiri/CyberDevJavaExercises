@@ -14,7 +14,23 @@ public class CanvaspPractice {
 		 //   System.out.println(" The course id for <"+courses[i]+"> is <"+courseId[i]+">");
 		//  
 		  // find out the ID of online Java Programming course 
-		
+		String[] names = {
+				"saloh",
+				"idris",
+				"sharif"
+				};
+		int[] nameId = {
+				1,
+				2,
+				3
+		};
+
+		for (int i = 0; i< names.length ;i++){
+			System.out.println(names[i] + " = " + nameId[i]);
+			//saloh=1
+			//idris=2
+		}
+
 		String[] courses = {
 				"Welcome Kit",
 				"Online-Java Programming",
@@ -35,6 +51,7 @@ public class CanvaspPractice {
 	
 		for (int j = 0; j < courses.length; j++) {
 			String eachCourse = courses[j];
+			System.out.println(eachCourse);
 			if(eachCourse.equals("Online-Java Programming")) {
 				System.out.println("INDEX IS: "+courseId[j]);
 				break;

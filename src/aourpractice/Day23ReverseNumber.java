@@ -1,8 +1,8 @@
-package day23;
+package aourpractice;
 
 import java.util.Scanner;
 
-public class ReverseNumber {
+public class Day23ReverseNumber {
 
     public static void main(String[] args) {
         int x = 123;
