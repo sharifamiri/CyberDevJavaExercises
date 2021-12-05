@@ -28,7 +28,6 @@ public class WarmUp {
 //			if(nums[x]%2==0)
 //			//System.out.print((nums[x]+" "));
 //		}
-
 		
 		
 		int [] evenNumbers = new int [51];

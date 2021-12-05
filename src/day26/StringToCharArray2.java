@@ -14,8 +14,8 @@ public class StringToCharArray2 {
 		//2ND WAY
 		System.out.println("Enter Your Name:");
 		String name = s.next();
-		
-		System.out.println("Enter Ychar to count:");
+		s.nextLine();
+		System.out.println("Enter char to count:");
 		String userCharStr = s.next();
 		char charToLookFor = userCharStr.charAt(0);
 		

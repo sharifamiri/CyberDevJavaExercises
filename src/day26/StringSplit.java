@@ -8,7 +8,7 @@ public class StringSplit {
 		// TODO Auto-generated method stub
 
 		
-		String shows = "Orville, Game of Thrones, X-man ,Gifted, Breaking bad";
+		String shows = "Orville, Game of Thrones, X-man, Gifted, Breaking bad";
 		String[] showsArray = shows.split(",");
 		
 		System.out.println(Arrays.toString(showsArray));

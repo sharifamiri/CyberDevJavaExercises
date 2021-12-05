@@ -29,6 +29,13 @@ public class WarmUp {
 	     
 	     // This must happen in one statenment 
 	     String[] names3  =  {"asdads","ssss0"} ;
+
+	     String str = "Idris Salohiddin Sharif";
+	     String [] strArr = str.split(" ");
+		System.out.println(Arrays.toString(strArr));
+		//idris-5,sal..-10, sharif-6
+		System.out.println(strArr[0] +" - " +strArr[0].length() +"\n" + strArr[1] +" - " +strArr[1].length() +
+				"\n" + strArr[2] +" - " +strArr[2].length());
 		
 	}
 
