@@ -24,7 +24,7 @@ public class Spartan {
 	}
 	
 	public static void main(String[] args) {
-		Spartan.releaseTheHorse();
+		releaseTheHorse();
 		Spartan.releaseTheHorse();
 		Spartan.releaseTheHorse();
 		//if you are in same class where the method is defined
