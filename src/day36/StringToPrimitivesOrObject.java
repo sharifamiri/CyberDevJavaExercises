@@ -35,6 +35,10 @@ public class StringToPrimitivesOrObject {
 		System.out.println(d1.equals(3.14));
 		
 		double d2 = d1; //-->auto boxing
+
+		String str = "123";
+		int num = Integer.parseInt(str);
+		System.out.println(num);
 		
 		
 		//invalid conversion

@@ -1,8 +1,6 @@
 package day38Review;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class ArrayListCreatingOneShot {
 
@@ -37,6 +35,17 @@ public class ArrayListCreatingOneShot {
 		list2.add("John");
 		
 		System.out.println(list2);
+
+		List<Integer> nums = new ArrayList<>();
+		List<String> strs = new Stack<>();
+		strs.add("aa");
+
+		Map<String,Integer> map = new HashMap<>();
+		map.put("Saloh",70);
+		map.put("Idris",80);
+		System.out.println(map);
+		System.out.println(map.get("Saloh"));
+
 		
 		
 		

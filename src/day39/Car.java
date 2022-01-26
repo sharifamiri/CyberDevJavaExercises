@@ -4,7 +4,7 @@ public class Car {
 
 	//instance variable / field
 	String make;
-	String model;
+	static String model;
 	int year;
 	double price;
 	short horsePower;
@@ -27,11 +27,11 @@ public class Car {
 	//    
 	    
 	    Car c1=new Car();
-//	    c1.model     = "Toros";
-//	    c1.make      = "Toyota";
-//	    c1.year      = 2019;
-//	    c1.price     = 60000;
-//	    c1.horsePower = 200;
+	    model     = "Toros";
+	    c1.make      = "Toyota";
+	    c1.year      = 2019;
+	    c1.price     = 60000;
+	    c1.horsePower = 200;
 	    
 	    System.out.println(c1.model );
 	    System.out.println(c1.make );

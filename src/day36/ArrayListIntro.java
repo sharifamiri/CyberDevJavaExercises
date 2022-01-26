@@ -1,6 +1,7 @@
 package day36;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ArrayListIntro {
@@ -19,6 +20,38 @@ public class ArrayListIntro {
 		//so we can store any type
 		
 		//1ST WAY
+
+		int [] num = new int[3];
+		num[0] = 2;
+		num[2] = 3;
+		num[1] = 6;
+		System.out.println(Arrays.toString(num));
+
+		ArrayList<String> listString = new ArrayList();
+		listString.add("aaa");
+		listString.add("bb");
+		listString.add("cc");
+		listString.add("aaa");
+		listString.add("aaa");
+		listString.add("aaa");
+		listString.add("aaa");
+		listString.add("aaa");
+
+		ArrayList<Integer> listInt = new ArrayList();
+		listInt.add(1);
+		listInt.add(3);
+		System.out.println("listInt: " + listInt.get(0));
+		System.out.println("listInt: " + listInt);
+
+		ArrayList<Character> listChar = new ArrayList();
+		ArrayList<Boolean> listBln = new ArrayList();
+		ArrayList<Double> listDbl = new ArrayList();
+
+
+
+
+
+
 		ArrayList list1 = new ArrayList ();
 		
 		list1.add("abc");

@@ -27,8 +27,8 @@ public class ArrayListPractice {
 		
 		
 		System.out.println(list1);
-		String str = list1.get(0);
-		System.out.println(str);
+		String st = list1.get(0);
+		System.out.println(st);
 		
 		// getting single items we use get method and provide index
 		System.out.println("Item 1: " +list1.get(0));

@@ -23,6 +23,8 @@ public class CombineTwoArrayLists {
 	    lst1.addAll(2, lst2); 
 	    
 	    System.out.println("Justice league : " + lst1);
+
+		System.out.println("-------------------");
 	    
 	    ArrayList <String> list3 = new ArrayList <>(lst1);
 	    

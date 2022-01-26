@@ -1,5 +1,7 @@
 package day36;
 
+import java.util.ArrayList;
+
 public class WrappperClasses {
 
 	public static void main(String[] args) {
@@ -41,7 +43,18 @@ public class WrappperClasses {
 		
 		System.out.println(c1);
 		System.out.println(c2.toString());
-		
+
+		int num = 2;
+		System.out.println(num);
+		Integer integer = 3;
+
+		int [] arr = new int[2];
+		arr[0] = num;
+		arr[1] = integer;
+
+		ArrayList<Integer> nums = new ArrayList<>();
+		nums.add(num);
+		nums.add(integer);
 		
 		
 		

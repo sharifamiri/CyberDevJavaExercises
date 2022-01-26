@@ -26,6 +26,7 @@ public class ArrayListCollections {
 		Collections.sort(list);
 		
 		System.out.println(list);
+		System.out.println("--------------------");
 		
 		
 	    // sort method from ArrayList excect an object called Comparator we did not learn
