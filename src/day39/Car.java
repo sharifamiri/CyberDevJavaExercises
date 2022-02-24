@@ -9,10 +9,11 @@ public class Car {
 	double price;
 	short horsePower;
 	boolean isConvertable;
+	Car car = new Car();
 	
 	public static void main(String[] args) {
-		
 
+		int num = 2;
 	    // default values for fields
 	    // if it's not defined 
 	    /*
@@ -39,9 +40,16 @@ public class Car {
 	    System.out.println(c1.price );
 	    System.out.println(c1.horsePower );
 	    System.out.println(c1.isConvertable );
-	    
-		
-		
+	}
+
+	public static void test(int var){
+		model = "Toyota";
+		Car car = new Car();
+		car.make = "Camry";
+	}
+
+	public static void test2(int var){
+		String model = "Toyota";
 	}
 
 }

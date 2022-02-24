@@ -28,7 +28,14 @@ package day39;
 		            + "| my age is : " + age 
 		            + "| my gender is " + gender ) ; 
 		        
-		  }
+	  }
+
+		public static void main(String[] args) {
+			Person p1 = new Person();
+			p1.eat();
+			p1.name = "saloh";
+			p1.tellMeYourName();
+		}
 	  
 	}
 
