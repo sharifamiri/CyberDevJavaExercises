@@ -38,5 +38,23 @@ public class Phone {
 	public void printInfo() {
 		System.out.println(brand +" : "+model);
 	}
-	
+
+	@Override
+	public String toString() {
+		return "Phone{" +
+				"brand='" + brand + '\'' +
+				", model='" + model + '\'' +
+				", OS='" + OS + '\'' +
+				", storageSize=" + storageSize +
+				", screenSize=" + screenSize +
+				", ram=" + ram +
+				", camera=" + camera +
+				", price=" + price +
+				", color='" + color + '\'' +
+				", isWaterResistant=" + isWaterResistant +
+				", supports5G=" + supports5G +
+				", cpu='" + cpu + '\'' +
+				", imei=" + imei +
+				'}';
+	}
 }

@@ -2,7 +2,7 @@ package day41;
 
 public class Teacher {
 
-	  private String name;
+	  private String name = "Saloh";
 	  private String specialty;
 	  // getters and setters
 

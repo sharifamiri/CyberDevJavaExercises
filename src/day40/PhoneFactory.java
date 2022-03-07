@@ -75,6 +75,9 @@ public class PhoneFactory {
 		
 		System.out.println(google.brand);
 
+		System.out.println("////////////");
+		System.out.println(iphone.toString());
+
 		
 		
 	}

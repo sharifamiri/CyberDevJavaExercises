@@ -7,6 +7,9 @@ public class ComputerFactory {
 		Computer iMac = new Computer();
 		Computer MacBookPro = new Computer();
 		Computer dell = new Computer();
+
+//		System.out.println(str);
+//		String str = "java";
 		
 		System.out.println(iMac==MacBookPro);//false -->two different objects
 		System.out.println("--------IMAC--------");
